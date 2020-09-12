@@ -416,7 +416,7 @@
 		<!-- ImageJ - https://github.com/imagej -->
 
 		<!-- ImageJ - https://github.com/imagej/imagej -->
-		<imagej.version>2.2.0</imagej.version>
+		<imagej.version>2.1.0</imagej.version>
 
 		<!-- ImageJ 1.x - https://github.com/imagej/ImageJA -->
 		<imagej1.version>1.53d</imagej1.version>
@@ -823,10 +823,16 @@
 		<cleargl.version>2.2.10</cleargl.version>
 
 		<!-- Scenery - https://github.com/scenerygraphics/scenery -->
-		<scenery.version>0.7.0-beta-7</scenery.version>
+		<scenery.version>0.7.0-beta-8-SNAPSHOT</scenery.version>
 
 		<!-- SciView - https://github.com/scenerygraphics/SciView -->
-		<sciview.version>0.2.0-beta-5</sciview.version>
+		<sciview.version>0.2.0-beta-9-SNAPSHOT</sciview.version>
+
+		<!-- Cx3D - https://github.com/morphonets/cx3d -->
+		<cx3d.version>0.0.4-SNAPSHOT</cx3d.version>
+
+		<!-- SNT - https://github.com/morphonets/SNT -->
+		<snt.version>3.1.108-SNAPSHOT</snt.version>
 
 		<!-- Third party components -->
 
@@ -1132,6 +1138,7 @@
 		<!-- Kotlin - https://kotlinlang.org/ -->
 		<kotlin.version>1.4.0-rc</kotlin.version><!-- NB: kotlin.version is also defined in pom-scijava-base. -->
 		<kotlinx-coroutines-core.version>1.3.8-1.4.0-rc</kotlinx-coroutines-core.version>
+		<kotlin.compiler.jvmTarget>1.8</kotlin.compiler.jvmTarget>
 
 		<kotlin-compiler-embeddable.version>${kotlin.version}</kotlin-compiler-embeddable.version>
 		<kotlin-daemon-embeddable.version>${kotlin.version}</kotlin-daemon-embeddable.version>
@@ -2826,6 +2833,20 @@
 				<groupId>sc.iview</groupId>
 				<artifactId>sciview</artifactId>
 				<version>${sciview.version}</version>
+			</dependency>
+
+			<!-- Cx3D - https://github.com/morphonets/Cx3D -->
+			<dependency>
+				<groupId>org.morphonets</groupId>
+				<artifactId>cx3d</artifactId>
+				<version>${cx3d.version}</version>
+			</dependency>
+
+			<!-- SNT - https://github.com/morphonets/SNT -->
+			<dependency>
+				<groupId>org.morphonets</groupId>
+				<artifactId>SNT</artifactId>
+				<version>${snt.version}</version>
 			</dependency>
 
 			<!-- Third party components -->
