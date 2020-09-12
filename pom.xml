@@ -823,7 +823,7 @@
 		<cleargl.version>2.2.10</cleargl.version>
 
 		<!-- Scenery - https://github.com/scenerygraphics/scenery -->
-		<scenery.version>0.7.0-beta-8-SNAPSHOT</scenery.version>
+		<scenery.version>954e766</scenery.version>
 
 		<!-- SciView - https://github.com/scenerygraphics/SciView -->
 		<sciview.version>0.2.0-beta-9-SNAPSHOT</sciview.version>
